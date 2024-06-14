@@ -1,7 +1,9 @@
+import { Editor } from "./components/Editor";
+
 function App() {
   return (
     <>
-      <h1>こんにちは。</h1>
+      <Editor />
     </>
   );
 }

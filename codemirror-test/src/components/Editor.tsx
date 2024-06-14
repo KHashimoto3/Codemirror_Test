@@ -10,6 +10,7 @@ export const Editor = () => {
     <div>
       <h1>Editor</h1>
       <ReactCodeMirror value={value} onChange={onChange} />
+      <p>入力内容：{value}</p>
     </div>
   );
 };
